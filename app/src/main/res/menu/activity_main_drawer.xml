@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="HOME" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="PROFILE" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Schedule"
+                android:icon="@drawable/ic_schedule_black_24dp"
+                android:title="SCHEDULE" />
+            <item
+                android:id="@+id/Share"
+                android:icon="@drawable/ic_share_blacki_24dp"
+                android:title="SHARE" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="CONTACT US" />
+            <item
+                android:id="@+id/Developer"
+                android:icon="@drawable/ic_developer_black_24dp"
+                android:title="DEVELOPERS" />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_settings_power_black_24dp"
+                android:title="LOGOUT" />
+        </menu>
+    </item>
+
+</menu>
